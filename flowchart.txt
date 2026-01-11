@@ -1,0 +1,19 @@
+START
+ |
+ |--> Display welcome message
+ |
+ |--> Take user input
+ |
+ |--> Convert input to lowercase
+ |
+ |--> Is input "bye"?
+ |       |-- YES --> Print goodbye message --> END
+ |       |
+ |       |-- NO
+ |
+ |--> Is input in dictionary?
+ |       |-- YES --> Print stored response
+ |       |
+ |       |-- NO --> Print "I don't understand"
+ |
+ |--> Repeat
